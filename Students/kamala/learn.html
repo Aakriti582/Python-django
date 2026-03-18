@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            /* center horizontally */
+            align-items: center;
+            /* center vertically */
+            height: 100vh;
+            background: #f4f4f4;
+            font-family: Arial;
+        }
+
+        .card {
+            width: 250px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+            position: relative;
+        }
+
+        .badge1 {
+            display: flex;
+            justify-content: space-between;
+            align-content: space-around;
+            position: absolute;
+            /* uses relative parent */
+            top: 10px;
+            right: 10px;
+
+        }
+
+        .badge1 {
+            background: rgb(241, 39, 39);
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 5px;
+
+        }
+
+        .card-content {
+            display: flex;
+            /* flex used here */
+            flex-direction: column;
+            /* vertical layout */
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="badge1">
+            <div class="badge">New</div>
+            <div class="badge">old</div>
+        </div>
+
+
+        <div class="card-content">
+            <h3>Simple Card</h3>
+            <p>This is an easy card using flex and position.</p>
+            <button class="btn">Click</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
