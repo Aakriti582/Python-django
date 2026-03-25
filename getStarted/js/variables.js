@@ -6,6 +6,8 @@
 // const -> block scoped, cannot be reassigned
 
 let city = "Kathmandu";
+console.log(city)
+city="porkhara"
 const country = "Nepal";
 var year = 2026;
 

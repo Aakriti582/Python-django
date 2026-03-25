@@ -15,7 +15,7 @@ console.log("Final Cart:", finalCart);
 
 // 3. Calculate Totals
 let totalPrice = finalCart[0] + finalCart[1] + finalCart[2] + finalCart[3] + finalCart[4];
-totalPrice = totalPrice + (totalPrice * 0.10);
+totalPrice = totalPrice - (totalPrice * 0.10);
 totalPrice = Number(totalPrice.toFixed(2));
 console.log("Total Price (with tax):", totalPrice);
 

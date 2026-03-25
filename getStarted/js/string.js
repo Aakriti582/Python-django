@@ -16,7 +16,7 @@ console.log(`HEllo my name is ${name} and I am ${age} years old`);
 //`` we use backtick for this
 
 console.log(name.length)// where as in length we start form 1
-console.log(name[5])// while taking a prticular char we start with 0
+console.log(name[0])// while taking a prticular char we start with 0
 console.log(2+3+"4"+5+6+3)
 console.log(name.indexOf('a'))
 console.log(name.slice(3))
@@ -32,7 +32,6 @@ console.log(name)
 
 const url = "https://saugat.com/saugat%20choudhary";
 console.log(url.charAt(5))
-console.log(url.endsWith('r'))
 console.log(url.indexOf("s"))
 console.log(url.toUpperCase())
 console.log(url.toLowerCase())
